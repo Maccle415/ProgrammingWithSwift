@@ -37,7 +37,7 @@ class TestExtensionClass
 
 extension TestExtensionClass {
     var outputString: String {
-        var output: String = testString + String(testInt)
+        let output: String = testString + String(testInt)
         return output
     }
 }
@@ -59,7 +59,7 @@ struct TestExtensionStruct
 
 extension TestExtensionStruct {
     var outputString: String {
-        var output: String = testString + String(testInt)
+        let output: String = testString + String(testInt)
         return output
     }
 }
